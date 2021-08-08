@@ -1,0 +1,68 @@
+.carousel-indicators li {
+  height: 5px;
+  width: 5px;
+  border-radius: 100%;
+}
+.carousel-inner img {
+  min-height: 100vh;
+  width: 100%;
+}
+.carousel-caption {
+  position: absolute;
+  top: 20%;
+  transform: translateY(-50%, -50%);
+}
+.carousel-caption h1 {
+  font-family: "Lobster Two", cursive;
+  font-size: 50px;
+  color: black;
+}
+.carousel-caption p {
+  font-family: "STIX Two Text", serif;
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+}
+#xp {
+  color: black;
+  font-size: 15px;
+  font-family: "Lobster Two", cursive;
+  left: 90%;
+  top: 93%;
+  bottom: 1%;
+  position: absolute;
+}
+.carousel-caption1 h2,
+.carousel-caption2 h2 {
+  color: white;
+  font-family: "Lobster Two", cursive;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+.navbar {
+  padding: 0.4rem;
+  text-align: right;
+}
+.navbar li {
+  padding-right: 20px;
+}
+.nav-link {
+  font-family: "STIX Two Text", serif;
+}
+
+@media (max-width: 700px) {
+  .carousel-caption h1 {
+    font-size: 30px;
+  }
+  .carousel-caption p {
+    font-size: 10px;
+  }
+  #xp {
+    font-size: 7px;
+  }
+  .carousel-caption1 h2,
+  .carousel-caption2 h2 {
+    font-size: 25px;
+  }
+}
